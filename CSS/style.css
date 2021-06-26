@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&family=Ubuntu+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+
+    width: 20%;
+    border: 3px solid rgb(255, 47, 227);
+   border-radius: 50%;
+   border-width: 0mm;
+    
+}
+
+.navbar{
+display: flex;
+align-items: center;
+justify-content: center;
+position: sticky;
+
+top: 0;
+}
+
+nav.navbar.background{
+    background-color: rgb(0, 0, 0,0.7) url(Images\BeautyPlus_20200705141557612_save-picsay.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    border-bottom: solid #ffffff2e;
+}
+.Nav-List{
+   width: 60%;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+
+.ul {
+    list-style-type: none;
+  }
+.Nav-List li{
+    font-size: 20px;
+  
+    padding: 32px;
+}
+
+
+.Nav-List li a{
+    font-size: 16px;
+text-decoration: none;
+color:  white;
+padding: 20px 30px ;
+cursor: pointer;
+}
+
+.Nav-List li a:hover{
+    color: grey;
+    font-size: 15px;
+    
+}
+.rightNav{
+    
+    width: 50%;
+    text-align: center;
+   
+}
+.btnn{
+   
+    padding: 4px 12px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 12px;
+    color: white;
+    background: none;
+    
+}
+
+
+.btnn:hover{
+    
+    cursor: pointer;
+    color: rgb(12, 202, 186);
+    font-size: 16px ;
+}
+#search{
+    padding: 6px;
+    font-size: 10px;
+    border: 2px solid grey;
+    border-radius: 8px;
+}
+#search:hover{
+    font-size:12px ;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../Images/travis-yewell-43ScFMWx2xY-unsplash.jpg');
+    background-size: cover;
+    background-blend-mode: darken ;
+}
+ .firstSection{
+     
+    height: 100vh;
+ }
+     
+.box-Main{
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+font-family: cursive;
+height: 80%;
+}
+.text-big{
+    font-size: 150%;
+    
+    font-style: italic;
+    color: crimson;
+}
+.text-small{
+    font-size: 93%
+}
+
+  .btn{
+     
+    padding: 6px 16px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 11px;
+    color: white;
+    background: none;
+    cursor: pointer;
+}
+
+
+.btn:hover{
+    color: rgb(231, 43, 90);
+    font-size: 14px;
+}
+.firstHalf{
+    width: 37%;
+    padding: 0px 135px;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+
+}
+.secondHalf{
+    
+}
+.secondHalf img{
+    width: 10%;
+    border-radius: 40%;
+}
+
+.section{
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1133px;
+    margin: auto;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.paras{
+    padding: 0px 63px;
+
+}
+.Sec-2{
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Oswald', sans-serif;
+
+}
+.text-small1{
+    font-size: 93%
+}
+.sectionTag{
+    font-size: 230%;
+    color: rgb(5, 201, 201);
+    font-style: normal;
+}
+.thumbnail{
+
+}
+.thumbnail img{
+    width: 97%;
+    /* padding: 14px; */
+    /* border: 3px solid rgb(217, 219, 69); */
+    border-radius: 9%;
+}
+
+.contact{
+    background-color: rgb(228, 253, 216);
+    height: 34vh;
+}
+.text-center{
+    text-align: center;
+}
+.form{
+    max-width: 314px;
+    margin: auto;
+}
+.form input{
+    width: 96%;
+    margin: auto;
+    
+}
+#name{
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 3px;
+}
+   
+
+#phone{
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 3px;
+}
+#address{
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 3px;
+}
+   
+   
+@media screen and (max-width:500px) and (min-width: 0px){
+.Nav-List{
+   
+    flex-direction: column;
+
+   }
+
+
+.navbar{
+ 
+    flex-direction: column;
+
+  }
+.rightNav{
+
+   text-align: center;
+  }
+  #search{
+     width: 100%;
+  }
+}
