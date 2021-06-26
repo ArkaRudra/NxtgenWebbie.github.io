@@ -234,7 +234,7 @@ justify-content: center;
 }
    
    
-@media screen and (max-width:500px) and (min-width: 0px){
+@media screen and (max-width:900px) and (min-width: 0px){
 .Nav-List{
    
     flex-direction: column;
