@@ -47,7 +47,7 @@ nav.navbar.background{
   }
 .Nav-List li{
     font-size: 20px;
-  
+    list-style: none;
     padding: 32px;
 }
 
@@ -58,6 +58,7 @@ text-decoration: none;
 color:  white;
 padding: 20px 30px ;
 cursor: pointer;
+text-decoration: none;
 }
 
 .Nav-List li a:hover{
@@ -234,7 +235,7 @@ justify-content: center;
 }
    
    
-@media screen and (max-width:900px) and (min-width: 0px){
+@media screen and (max-width:1124px) and (min-width: 550px){
 .Nav-List{
    
     flex-direction: column;
@@ -252,6 +253,30 @@ justify-content: center;
    text-align: center;
   }
   #search{
-     width: 100%;
+     width: 74%;
   }
 }
+
+@media screen and (max-width:549px) and (min-width: 0px){
+    
+    .Nav-List{
+   
+        flex-direction: column;
+    
+       }
+    
+    
+    .navbar{
+     
+        flex-direction: column;
+    
+      }
+    .rightNav{
+    
+       text-align: center;
+      }
+      #search{
+         width: 95%;
+      }
+    }
+    
