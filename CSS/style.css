@@ -58,7 +58,7 @@ text-decoration: none;
 color:  white;
 padding: 20px 30px ;
 cursor: pointer;
-text-decoration: none;
+
 }
 
 .Nav-List li a:hover{
@@ -235,7 +235,7 @@ justify-content: center;
 }
    
    
-@media screen and (max-width:900px) and (min-width: 550px){
+@media screen and (max-width:850px) and (min-width: 550px){
 .Nav-List{
    
     flex-direction: column;
